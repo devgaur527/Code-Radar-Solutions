@@ -2,6 +2,6 @@
 int main() {
     double num
     scanf("%lf",&num);
-    printf("You entered: %.4lf");
+    printf("You entered: % .4lf");
     return 0;
 }
