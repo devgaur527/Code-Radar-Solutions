@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
     char name[100],hobby[100];int age;
-    scanf("%s%d%c",&name,&age,&hobby);
+    scanf("%s%s%c",&name,&age,&hobby);
     printf("Name: %s",name);
     printf("Age: %d",age);
-    printf("Hobby: %c",hobby);
+    printf("Hobby: %s",hobby);
     return 0;
 
    
