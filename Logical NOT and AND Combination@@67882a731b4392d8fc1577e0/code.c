@@ -2,7 +2,11 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    ((a>0 && b>0))? printf("False"): printf("True");
+    if(a<0 && b<0){
+        printf("True\n");
+    }
+    else{
+        printf("False\n");
+    }
     return 0;
-  
 }
