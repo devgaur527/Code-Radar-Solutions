@@ -6,7 +6,7 @@ int main() {
         printf("%d is greater than %d\n",a,b);
     }
     else{
-        printf("%d is greater than %d\n",b,a);
+        printf("%d is greater than %d",b,a);
 
     }
     return 0;
