@@ -5,9 +5,12 @@ int main() {
     if(a>b){
         printf("%d is greater than %d\n",a,b);
     }
-    else{
-        printf("%d is greater than %d",b,a);
+    else if{
+        printf("%d is greater than %d\n",b,a);
 
+    }
+    else{
+        printf("Both numbers are equal.\n")
     }
     return 0;
 
