@@ -5,7 +5,7 @@ int main() {
     if(a>b){
         printf("%d is greater than %d\n",a,b);
     }
-    else if{
+    else if(b>a){
         printf("%d is greater than %d\n",b,a);
 
     }
