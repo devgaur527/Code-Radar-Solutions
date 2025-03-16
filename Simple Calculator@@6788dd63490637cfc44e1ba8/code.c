@@ -9,10 +9,11 @@ int main(){
     else if(ch=='/'){
         if(b!=0){printf("%d",a/b);}
         else{printf("error");}
-        else{
+       
+    }
+     else{
             printf("%d",a*b);
         }
-    }
     return 0;
   
 }
