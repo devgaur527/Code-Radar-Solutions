@@ -3,7 +3,7 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        for(int j=i;j<=n-i;j++) {              //loop for space
+        for(int j=n-i;j>=1;j--) {              //loop for space
            printf(" ");
         }
         for(int k=1;k<=i;k++ ){
