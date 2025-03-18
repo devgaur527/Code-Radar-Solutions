@@ -15,6 +15,6 @@ int main (){
         for(int l=i-1;l>=1;l--){
             printf("%d",l);
         }
-    }
+    printf("\n");}
     return 0;
 }
