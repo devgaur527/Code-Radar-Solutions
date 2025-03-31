@@ -2,8 +2,8 @@
 int main(){
     int i,j,n;
     for(i=1;i<=n;i++){
-        for(j=1;j<=i;j++){
-            if(j=i)
+        for(j=1;j<=n;j++){
+            if(j<=n*i)
             printf("* ");
             else
             printf(" ");
